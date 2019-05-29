@@ -36,6 +36,7 @@ public class UserController  {
 		u.setUname(uname);
 		u.setPwd(pwd);
 		userService.add(u);
+		System.out.println("111");
 		return "index";
 	}
 	
